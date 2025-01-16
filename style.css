@@ -1,0 +1,572 @@
+h1 {
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #1f1a38;
+}
+
+nav img {
+    width: 4vw;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    overflow: visible;
+}
+
+
+footer {
+    background-color: #442d58;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+footer .containercentrat {
+    display: flex;
+    color: #e1dce9;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: #f8f8f8;
+    outline: none;
+    margin-top: 3vh;
+    gap: 20px;
+}
+
+footer p {
+    font-style: italic;
+    color: #e7daf3;
+    margin-top: 3vh;
+}
+
+.socials img {
+    padding: 1.5vw;
+    height: auto;
+    opacity: 0.5;
+}
+
+.navbar {
+    --bs-navbar-color: #e1dce9;
+    --bs-navbar-hover-color: #e1dce9;
+    --bs-navbar-active-color: #e1dce9;
+    background-color: #1F1A38;
+    padding-left: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: #e1dce9;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+p a {
+    font-weight: bold;
+    color: #6245a5;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #1f1a38;
+    margin: 0;
+    background-image: linear-gradient(45deg, #f8bed1, rgb(253, 194, 57), #7d53de, #f8bed1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #1f1a38;
+}
+
+.continut {
+    background-color: rgba(241, 167, 193, 0.384);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+p {
+    color: #090321;
+}
+
+
+.buton {
+    width: 120px;
+    margin: 2vw;
+    background-color: rgba(62, 33, 68, 0.384);
+    border-radius: 8px;
+}
+
+
+.buton:hover {
+    background-color: rgba(62, 33, 68, 1);
+}
+
+.galerielineup {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.galerielineup img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    border-radius: 30px;
+}
+
+.textpegalerielineup {
+    position: absolute;
+    bottom: 0.5em;
+    color: #e7daf3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    bottom: 0;
+    left: 0.2em;
+}
+
+.textpegalerielineup:hover {
+    font-size: 3em;
+}
+
+.accordion {
+    --bs-accordion-bg: rgba(31, 26, 56, 0.84);
+    --bs-accordion-color: #dcd0eb;
+    --bs-accordion-btn-color: #e9dff3;
+    --bs-accordion-btn-font-weight: bold;
+    --bs-accordion-active-bg: #1F1A38;
+    --bs-accordion-active-color: #e9dff3;
+}
+
+hr {
+    margin: 60px;
+}
+
+.accordion-button {
+    font-weight: bold;
+}
+
+.btn {
+    color: #e7dbf2;
+}
+
+.evidentiat {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.carousel-item p {
+    color: #dcd0eb;
+}
+
+.card {
+    background-color: rgba(245, 82, 13, 0.384);
+    outline: 5px solid #CE567F;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10vh;
+}
+
+.card img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+h2 {
+    color: #2d0052;
+    font-weight: bold;
+}
+
+h3 {
+    color: #442d58;
+}
+
+h4 {
+    color: #2d0052;
+    font-size: 1.5em;
+}
+
+.textpegalerielineup {
+    position: absolute;
+    color: #e7daf3;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textpegalerie {
+    position: absolute;
+    color: #e7daf3;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.galerielineup img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.galerie img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.galerielineup {
+display: flex;
+}
+
+
+.poza {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        margin: 10vw;
+    }
+
+    h3 {
+        margin: 5vw;
+    }
+
+    h4 {
+        font-size: 1.5em;
+    }
+
+    .card {
+        flex-basis: 100%;
+    }
+
+    .galerie {
+        margin-bottom: 70px;
+    }
+
+    .poza {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .coloanadedoi {
+        flex-basis: 100%;
+    }
+
+    .coloanadetrei {
+        flex-basis: 100%
+    }
+
+    .coloanadepatru {
+        flex-basis: 100%;
+    }
+
+    .galerie img {
+        width: 100%;
+        margin-top: 15px;
+        height: auto;
+
+    }
+
+    .textpegalerie {
+        bottom: 1em;
+        font-size: 1.5em;
+        bottom: 0;
+        left: 30px;
+    }
+
+    .textpegalerie:hover {
+        font-size: 5em;
+    }
+
+    .buton {
+        outline: 3px solid #2d0052;
+    }
+
+    .galerielineup {
+        width: 100%;
+        height: auto;
+        display: flex;
+        overflow: hidden;
+        gap: 20px;
+    }
+
+    .galerielineup img {
+        width: 100%;
+        object-fit: cover;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .textpegalerielineup {
+        bottom: 0.5em;
+        font-size: 2em;
+        bottom: 0;
+        left: 0.2em;
+    }
+
+    .textpegalerielineup:hover {
+        font-size: 3em;
+    }
+
+    .coloanadedoi {
+        flex-basis: 100%;
+    }
+
+    .coloanadetrei {
+        flex-basis: 100%
+    }
+
+    .coloanadepatru {
+        flex-basis: 100%;
+    }
+
+    footer .containercentrat {
+        font-size: 0.7em;
+    }
+
+    footer img {
+        width: 12vw;
+    }
+
+    .socials img {
+        width: 9vw;
+    }
+
+    .navbar-brand img {
+        width: 10vw;
+    }
+
+    .buton {
+        margin-bottom: 2vh;
+        margin-left: 4vw;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+
+    h2 {
+        margin-left: 5vw;
+        margin-bottom: 2.5vw;
+    }
+
+    h3 {
+        margin-left: 5vw;
+        margin-bottom: 2.5vw;
+        margin-top: 2vh;
+        font-size: 1.5em;
+    }
+
+    h4 {
+        margin-left: 7vw;
+        margin-bottom: 1.5vw;
+        font-size: 1.5em;
+    }
+
+    .card {
+        flex-basis: 33%;
+    }
+
+    .galerie {
+        gap: 5px;
+        margin-bottom: 30px;
+    }
+
+    .poza {
+        position: relative;
+        width: 100%;
+    }
+
+    .galerie img {
+        width: 100%;
+        margin-top: 30px;
+        height: auto;
+    }
+
+    .buton {
+        outline: 3px solid #2d0052;
+    }
+
+    .textpegalerie {
+        bottom: 1em;
+        font-size: 1.5em;
+        bottom: 0;
+        left: 30px;
+    }
+
+    .textpegalerie:hover {
+        font-size: 2em;
+    }
+
+    .galerielineup {
+        gap: 5px;
+        margin-bottom: 30px;
+    }
+
+    .galerielineup img {
+        width: 100%;
+        margin-top: 30px;
+        height: auto;
+    }
+
+    .textpegalerielineup {
+        bottom: 1em;
+        font-size: 1em;
+        bottom: 0;
+        left: 30px;
+    }
+
+    .textpegalerielineup:hover {
+        font-size: 1.5em;
+    }
+
+    .coloanadedoi {
+        flex-basis: 48%;
+    }
+
+    .coloanadetrei {
+        flex-basis: 32.5%
+    }
+
+    .coloanadepatru {
+        flex-basis: 23%;
+    }
+
+    .socials img {
+        width: 5.5vw;
+    }
+}
+
+@media (min-width: 1201px) {
+
+    h2 {
+        margin-left: 2.5vw;
+        margin-bottom: 2vw;
+    }
+
+    h3 {
+        margin-left: 5vw;
+        margin-bottom: 2vw;
+    }
+
+    h4 {
+        margin-left: 7vw;
+        margin-bottom: 1.5vh;
+    }
+
+
+    #lineup h3 {
+        margin-top: 4vh;
+    }
+
+    .card {
+        flex-basis: 33%;
+    }
+
+    .galerie {
+        gap: 1vw;
+        margin-bottom: 50px;
+    }
+
+    .poza {
+        position: relative;
+        width: 32.5%;
+        overflow: hidden;
+    }
+
+    .galerie img {
+        width: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+        margin-top: 30px;
+        height: auto;
+
+    }
+
+    .textpegalerie {
+        position: absolute;
+        bottom: 1em;
+        color: #e7daf3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3em;
+        bottom: 0;
+        left: 30px;
+    }
+
+    .textpegalerie:hover {
+        font-size: 5em;
+    }
+
+    .buton {
+        outline: 4px solid #2d0052;
+    }
+
+    .galerielineup {
+        gap: 1vw;
+        margin-bottom: 50px;
+    }
+
+    .poza {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .galerielineupv img {
+        width: 100%;
+        margin-top: 30px;
+        height: auto;
+
+    }
+
+    .textpegalerielineup {
+        bottom: 1em;
+        font-size: 3em;
+        bottom: 0;
+        left: 30px;
+    }
+
+    .textpegalerielineup:hover {
+        font-size: 5em;
+    }
+
+    .coloanadedoi {
+        flex-basis: 49%;
+    }
+
+    .coloanadetrei {
+        flex-basis: 32.5%
+    }
+
+    .coloanadepatru {
+        flex-basis: 24%;
+    }
+
+    .socials img {
+        width: 5.5vw;
+    }
+}
